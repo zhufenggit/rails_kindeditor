@@ -8131,7 +8131,7 @@ KindEditor.plugin('multiimage', function(K) {
 			uploadDesc : uploadDesc,
 			startButtonValue : lang.startUpload,
 			uploadUrl : K.addParam(uploadJson, 'dir=image'),
-			flashUrl : imgPath + 'swfupload.swf',
+			flashUrl :  '/kindeditor/swfupload.swf',
 			filePostName : filePostName,
 			fileTypes : '*.jpg;*.jpeg;*.gif;*.png;*.bmp',
 			fileTypesDesc : 'Image Files',
