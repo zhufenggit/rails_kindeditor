@@ -873,6 +873,7 @@
 	border: 0 none;
 	opacity: 0;
 	filter: alpha(opacity=0);
+	cursor: pointer;
 }
 /* tabs */
 .ke-tabs {
