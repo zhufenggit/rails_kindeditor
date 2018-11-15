@@ -93,7 +93,8 @@ class Kindeditor::AssetsController < ApplicationController
     end
     @file_list = []
    #  result_a = tem_r
-   # # binding.pry
+     result_a.uniq!
+
      client = Aliyun::Oss::Client.new(Rails.application.secrets["oss"]["aliyun_access_id"],  Rails.application.secrets["oss"]["aliyun_access_key"], host: 'oss-cn-beijing.aliyuncs.com', bucket: Rails.application.secrets["oss"]["aliyun_bucket"])
     result_a.each do |filename|
         hash = {}
