@@ -7404,6 +7404,7 @@ KindEditor.plugin('image', function(K) {
 									self.afterSelectFile.call(self, url);
 								}
 								self.hideDialog();
+                                K(".ke-refresh-btn", div).click();
 							}
 						}
 					});
