@@ -4251,7 +4251,7 @@ _extend(KUploadButton, {
 			hiddenElements.join(''),
 			'<input type="button" class="ke-button-common ke-button" value="' + title + '" />',
 			'</span>',
-			'<input type="file" class="ke-upload-file" name="' + fieldName + '" tabindex="-1" />',
+			'<input type="file" class="ke-upload-file" name="' + fieldName + '" tabindex="-1" style="cursor: pointer;" />',
 			(options.form ? '</div>' : '</form>'),
 			'</div>'].join('');
 		var div = K(html, button.doc);
