@@ -4263,7 +4263,7 @@ _extend(KUploadButton, {
 		self.form = options.form ? K(options.form) : K('form', div);
 		self.fileBox = K('.ke-upload-file', div);
 		var width = options.width || K('.ke-button-common', div).width();
-		K('.ke-upload-area', div).width(width);
+		K('.ke-upload-area', div).width(80);
 		self.options = options;
 	},
 	submit : function() {
